@@ -1,55 +1,60 @@
 <resources>
     <string name="app_name">P3 Quiz App</string>
-
+    <!--Q1-->
     <string name="first_question">1. What is Endometriosis?</string>
-    <string name="first_question_first_answer">A mental illness which makes you imagine pain</string>
-    <string name="first_question_second_answer">A disease in which the endometrium, the layer of tissue that normally covers the inside of the uterus, grows outside of it.</string>
-    <string name="first_question_third_answer">\"Laziness\" in greek</string>
+    <string name="first_question_first_answer">A mental disorder that makes an individual imagine pain</string>
+    <string name="first_question_second_answer">A disease in which the endometrium, the layer of tissue that normally covers the inside of the uterus, grows outside of it</string>
+    <string name="first_question_third_answer">\"Exaggeration\" in Greek</string>
     <string name="first_question_fourth_answer">The medical term for period cramps</string>
-
+    <!--Q2-->
     <string name="second_question">2. Which of the following methods may help diagnosing Endometriosis?</string>
+    <string name="second_question_alert">(Note: A point will be given if all, and only, correct answers are checked) </string>
     <string name="second_question_first_answer">Psychiatric assessment</string>
-    <string name="second_question_second_answer">Imaging test (ultrasound, MRI, etc..)</string>
-    <string name="second_question_third_answer">Laparascopy</string>
+    <string name="second_question_second_answer">Imaging test (Ultrasound, MRI, etc..)</string>
+    <string name="second_question_third_answer">Laparoscopy</string>
     <string name="second_question_fourth_answer">Urine test</string>
     <string name="second_question_fifth_answer">Polygraph test</string>
-    <string name="second_question_sixth_answer">Anamneza</string>
+    <string name="second_question_sixth_answer">Anamnesis (case history)</string>
     <string name="second_question_seventh_answer">Blood test</string>
-    <string name="second_question_eighth_answer">Physical gynecological test</string>
-
+    <string name="second_question_eighth_answer">Physical pelvic examination</string>
+    <!--Q3-->
     <string name="third_question">3. What causes Endometriosis?</string>
-    <string name="third_question_first_answer">At the moment the cause is unknown</string>
-    <string name="third_question_second_answer">Immorality</string>
-    <string name="third_question_third_answer">Atheistism</string>
+    <string name="third_question_first_answer">The cause is currently unknown</string>
+    <string name="third_question_second_answer">Gene mutation</string>
+    <string name="third_question_third_answer">Promiscuity</string>
     <string name="third_question_fourth_answer">Depression</string>
-
+    <!--Q4-->
     <string name="fourth_question">4. What cures Endometriosis?</string>
-    <string name="fourth_question_first_answer">A big warm hug</string>
-    <string name="fourth_question_second_answer">A surgery</string>
+    <string name="fourth_question_first_answer">A surgery</string>
+    <string name="fourth_question_second_answer">Psychiatric treatment</string>
     <string name="fourth_question_third_answer">Hormonal treatment</string>
-    <string name="fourth_question_fourth_answer">At the moment there is no cure</string>
-
-    <string name="fifth_question">5. Are the symptoms identical for everyone?</string>
-    <string name="fifth_question_first_answer">Yes. You can rely on somebody\'s symptoms to diagnose somebody else</string>
-    <string name="fifth_question_second_answer">No. There can be someone with severe
-    Endometriosis and no symptoms at all, and there can be someone with an "easier" case but with severe symptoms </string>
+    <string name="fourth_question_fourth_answer">There is currently no cure</string>
+    <!--Q5-->
+    <string name="fifth_question">5. Are the experienced symptoms identical in all cases of Endometriosis?</string>
+    <string name="fifth_question_first_answer">Yes. One can always rely on somebody else\'s symptoms for self-diagnosis</string>
+    <string name="fifth_question_second_answer">No. There can be severe cases with no symptoms at all, and there can be minimal cases but with severe symptoms </string>
     <string name="fifth_question_third_answer">Depends what kind of symptoms we are talking about</string>
-    <string name="fifth_question_fourth_answer">Endometriosis has no real symptoms</string>
-
+    <string name="fifth_question_fourth_answer">No. Endometriosis symptoms are psychosomatic and thus vary between individuals, depending on their mental state</string>
+    <!--Q6-->
     <string name="sixth_question">6. What is Adenomyosis?</string>
-    <string name="sixth_question_first_answer">A greek traditional dish which helps treating</string>
+    <string name="sixth_question_first_answer">An ancient Greek potion, which its recipe was found by archaeologists along with records of its consumption as Endometriosis symptoms reliever</string>
     <string name="sixth_question_second_answer">The first stage in the development of Endometriosis</string>
-    <string name="sixth_question_third_answer">Endometriosis in the myometrium </string>
-    <string name="sixth_question_fourth_answer">An abbreviation for "Endometriosis" </string>
-
-    <string name="seventh_question">7. According to world statistics, every 1 in __ women has Endometriosis</string>
-    <string name="seventh_question_hint">Number</string>
+    <string name="sixth_question_third_answer">Endometriosis in the myometrium (the muscular wall of the uterus) </string>
+    <string name="sixth_question_fourth_answer">The scar tissue left after curing Endometriosis </string>
+    <!--Q7-->
+    <string name="seventh_question">7. According to world statistics, every 1 in ___ women has Endometriosis</string>
+    <string name="seventh_question_hint">Type your answer here</string>
+    <!--buttons-->
     <string name="results_button">Results</string>
-    <string name="correct_answers">Correct Answers: </string>
-    <string name="toast_missing_answers">Please answer all questions</string>
     <string name="reset_button">Reset Quiz</string>
-    <string name="feedback_button">Show Feedback</string>
+    <string name="feedback_button">Get Feedback</string>
+    <!--feedback texts-->
+    <string name="correct_answers">Correct Answers: </string>
+    <string name="wrong_answers">Wrong Answers: </string>
     <string name="wrong_answer">Wrong Answer</string>
     <string name="correct_answer">Correct Answer</string>
+    <!--toast texts-->
+    <string name="toast_missing_answers">Please answer all questions</string>
+    <string name="final_score">Your score is: </string>
 
 </resources>

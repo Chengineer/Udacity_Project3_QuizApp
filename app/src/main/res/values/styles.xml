@@ -1,45 +1,63 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:textColor">@color/textColor</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">18sp</item>
         <item name="android:radioButtonStyle">@style/MyRadioButton</item>
         <item name="android:checkboxStyle">@style/MyCheckBox</item>
         <item name="android:editTextStyle">@style/MyEditTextStyle</item>
-
-
+        <item name="android:buttonStyle">@style/newButtonStyle</item>
     </style>
 
-    <style name="MyRadioButton"  parent="Base.Widget.AppCompat.CompoundButton.RadioButton">
+    <style name="MyText" parent="android:style/Widget.TextView">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="fontFamily">@font/amarante</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="MyRadioButton" parent="Base.Widget.AppCompat.CompoundButton.RadioButton">
         <item name="buttonTint">@color/textColor</item>
         <item name="android:textColor">@color/textColor</item>
         <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">15dp</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/amarante</item>
     </style>
 
-    <style name="MyCheckBox"  parent="Base.Widget.AppCompat.CompoundButton.CheckBox">
+    <style name="MyCheckBox" parent="Base.Widget.AppCompat.CompoundButton.CheckBox">
         <item name="buttonTint">@color/textColor</item>
         <item name="android:textColor">@color/textColor</item>
-        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_margin">15dp</item>
         <item name="android:padding">10dp</item>
         <item name="android:textSize">16sp</item>
-        <item name="android:textStyle">normal</item>
     </style>
 
-    <style name="MyEditTextStyle" parent="android:Widget.EditText">
+    <style name="MyEditTextStyle" parent="android:style/Widget.EditText">
         <item name="android:textColor">@color/textColor</item>
         <item name="android:textStyle">normal</item>
         <item name="android:padding">10dp</item>
         <item name="android:typeface">monospace</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textColorHint">@color/hintText</item>
+        <item name="fontFamily">@font/amarante</item>
+    </style>
+
+    <style name="newButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/textColor</item>
+        <item name="android:textColor">@color/buttonText</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="fontFamily">@font/amarante</item>
+
     </style>
 
 

@@ -12,8 +12,10 @@
         android:orientation="vertical">
 
         <TextView
+            style="@style/MyText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:text="@string/first_question" />
 
         <RadioGroup
@@ -48,35 +50,50 @@
         </RadioGroup>
 
         <LinearLayout
+            android:id="@+id/first_feedback"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
             android:orientation="horizontal"
-            android:visibility="gone"
-            android:id="@+id/first_feedback">
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/first_question_feedback_text"
+                style="@style/MyText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+
                 />
 
             <ImageView
                 android:id="@+id/first_question_feedback_image"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                 />
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
-        <view
+        <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
             android:background="@color/textColor" />
 
 
         <TextView
+            style="@style/MyText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:text="@string/second_question" />
+
+        <TextView
+            style="@style/MyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/second_question_alert"
+            android:textSize="14sp" />
 
         <CheckBox
             android:id="@+id/second_question_first_answer"
@@ -127,35 +144,60 @@
             android:text="@string/second_question_eighth_answer" />
 
         <LinearLayout
+            android:id="@+id/second_feedback_a"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
             android:orientation="horizontal"
-            android:visibility="gone"
-            android:id="@+id/second_feedback">
+            android:visibility="gone">
 
             <TextView
-                android:id="@+id/second_question_feedback_text"
+                android:id="@+id/second_question_feedback_text_a"
+                style="@style/MyText"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-
-                />
+                android:layout_height="wrap_content" />
 
             <ImageView
-                android:id="@+id/second_question_feedback_image"
+                android:id="@+id/second_question_feedback_image_a"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                 />
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
-        <view
+        <LinearLayout
+            android:id="@+id/second_feedback_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/second_question_feedback_text_b"
+                style="@style/MyText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/second_question_feedback_image_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
             android:background="@color/textColor" />
 
 
         <TextView
+            style="@style/MyText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:text="@string/third_question" />
 
         <RadioGroup
@@ -190,34 +232,39 @@
         </RadioGroup>
 
         <LinearLayout
+            android:id="@+id/third_feedback"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
             android:orientation="horizontal"
-            android:visibility="gone"
-            android:id="@+id/third_feedback">
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/third_question_feedback_text"
+                style="@style/MyText"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                />
+                android:layout_height="wrap_content" />
 
             <ImageView
                 android:id="@+id/third_question_feedback_image"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                />
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
-        <view
+        <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
             android:background="@color/textColor" />
 
 
         <TextView
+            style="@style/MyText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:text="@string/fourth_question" />
 
         <RadioGroup
@@ -252,34 +299,39 @@
         </RadioGroup>
 
         <LinearLayout
+            android:id="@+id/fourth_feedback"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
             android:orientation="horizontal"
-            android:visibility="gone"
-            android:id="@+id/fourth_feedback">
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/fourth_question_feedback_text"
+                style="@style/MyText"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                />
+                android:layout_height="wrap_content" />
 
             <ImageView
                 android:id="@+id/fourth_question_feedback_image"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                 />
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
-        <view
+        <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
             android:background="@color/textColor" />
 
 
         <TextView
+            style="@style/MyText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:text="@string/fifth_question" />
 
         <RadioGroup
@@ -314,34 +366,39 @@
         </RadioGroup>
 
         <LinearLayout
+            android:id="@+id/fifth_feedback"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
             android:orientation="horizontal"
-            android:visibility="gone"
-            android:id="@+id/fifth_feedback">
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/fifth_question_feedback_text"
+                style="@style/MyText"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                />
+                android:layout_height="wrap_content" />
 
             <ImageView
                 android:id="@+id/fifth_question_feedback_image"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                 />
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
-        <view
+        <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
             android:background="@color/textColor" />
 
 
         <TextView
+            style="@style/MyText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
             android:text="@string/sixth_question" />
 
         <RadioGroup
@@ -376,99 +433,116 @@
         </RadioGroup>
 
         <LinearLayout
+            android:id="@+id/sixth_feedback"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
             android:orientation="horizontal"
-            android:visibility="gone"
-            android:id="@+id/sixth_feedback">
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/sixth_question_feedback_text"
+                style="@style/MyText"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                />
+                android:layout_height="wrap_content" />
 
             <ImageView
                 android:id="@+id/sixth_question_feedback_image"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                 />
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
-        <view
+        <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
             android:background="@color/textColor" />
+
+        <TextView
+            style="@style/MyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/seventh_question" />
 
         <EditText
             android:id="@+id/seventh_question_answer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:backgroundTint="@color/textColor"
+            android:gravity="center_horizontal"
             android:hint="@string/seventh_question_hint"
             android:inputType="number"
-            android:maxLength="8"/>
+            android:maxLength="8"
+            android:textColor="@color/textColor"
+            android:textColorHint="@color/hintText" />
+
 
         <LinearLayout
+            android:id="@+id/seventh_feedback"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
             android:orientation="horizontal"
-            android:visibility="gone"
-            android:id="@+id/seventh_feedback">
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/seventh_question_feedback_text"
+                style="@style/MyText"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                />
+                android:layout_height="wrap_content" />
 
             <ImageView
                 android:id="@+id/seventh_question_feedback_image"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                 />
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
-        <view
+        <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
             android:background="@color/textColor" />
 
-        <Button
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="10dp"
-            android:background="@color/textColor"
-            android:gravity="center"
-            android:onClick="results"
-            android:text="@string/results_button"
-            android:textColor="#000000" />
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:onClick="results"
+                android:text="@string/results_button" />
+
+            <Button
+                android:id="@+id/feedback_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:onClick="feedback"
+                android:text="@string/feedback_button"
+                android:visibility="gone" />
+        </LinearLayout>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="10dp"
-            android:background="@color/textColor"
-            android:gravity="center"
             android:onClick="reset"
-            android:text="@string/reset_button"
-            android:textColor="#000000" />
-
-        <Button
-            android:id="@+id/feedback_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="10dp"
-            android:background="@color/textColor"
-            android:gravity="center"
-            android:onClick="feedback"
-            android:text="@string/feedback_button"
-            android:textColor="#000000"
-            android:visibility="gone" />
-
+            android:text="@string/reset_button" />
 
     </LinearLayout>
 
